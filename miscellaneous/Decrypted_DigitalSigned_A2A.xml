@@ -1,0 +1,138 @@
+<faxml>
+  <creditlist>
+<?xml version="1.0" encoding="UTF-8"?>
+<faxml>
+	<header>
+		<extsysname>COAPI</extsysname>
+		<datpost>2017-11-15</datpost>
+		<batchnumext>405734</batchnumext>
+		<idtxn>CO_BD2</idtxn>
+		<codcurr>INR</codcurr>
+		<iduser>SL711045249778</iduser>
+		<idcust>33188831</idcust>
+		<groupid>BAJAJFIN</groupid>
+		<reqdatetime>2017-11-15T06:00:07</reqdatetime>
+	</header>
+	<summary>
+		<orgcountdr>1</orgcountdr>
+		<orgcountcr>3</orgcountcr>
+		<orgsumdr>12000.00</orgsumdr>
+		<orgsumcr>12000.00</orgsumcr>
+	</summary>
+	<debit>
+		<stanext>1</stanext>
+		<accountno>11362560000112</accountno>
+		<orgamount>12000.00</orgamount>
+		<txndesc>Salary Oct 2017</txndesc>
+		<referenceno>711045249778</referenceno>
+	</debit>
+	<creditlist>
+		<credit>
+			<stanext>2</stanext>
+			<accountno>50100093870971</accountno>
+			<amount>7000.00</amount>
+			<txndesc>Salary Oct 2017</txndesc>
+			<referenceno>711045249833</referenceno>
+			<beneid></beneid>
+			<BeneName>SRINIVAS MOTORS</BeneName>
+			<BeneAddress_1/>
+			<BeneAddress_2/>
+			<BeneAddress_3/>
+			<BeneAddress_4/>
+			<emailid>a@abc.com, b@abc.com,c@abc.com</emailid>
+			<advice1></advice1>
+			<advice2></advice2> <!--This is advice field -->
+			<advice3></advice3>
+			<advice4></advice4>
+			<advice5></advice5>
+			<advice6></advice6>
+			<advice7></advice7>
+			<advice8></advice8>
+			<advice9></advice9>
+			<advice10></advice10>
+			<addnlfield1></addnlfield1>
+			<addnlfield2></addnlfield2>
+			<addnlfield3></addnlfield3>
+			<addnlfield4></addnlfield4>
+			<addnlfield5></addnlfield5>
+		</credit>
+		<credit>
+			<stanext>3</stanext>
+			<accountno></accountno>
+			<amount>3000.00</amount>
+			<txndesc>Salary Oct 2017</txndesc>
+			<referenceno>711045249834</referenceno>
+			<beneid>AMIRK</beneid>
+			<BeneName>ABCD</BeneName>
+			<BeneAddress_1/>
+			<BeneAddress_2/>
+			<BeneAddress_3/>
+			<BeneAddress_4/>
+			<emailid>d@abc.com,e@abc.com</emailid>
+			<advice1>Payment for month of March</advice1>
+			<advice2>Amount transferred to the account registered in the system</advice2>
+			<advice3>You may check the salary statement from 3rd of this month</advice3>
+			<advice4></advice4>
+			<advice5></advice5>
+			<advice6></advice6>
+			<advice7></advice7>
+			<advice8></advice8>
+			<advice9></advice9>
+			<advice10></advice10>
+			<addnlfield1></addnlfield1>
+			<addnlfield2></addnlfield2>
+			<addnlfield3></addnlfield3>
+			<addnlfield4></addnlfield4>
+			<addnlfield5></addnlfield5>
+		</credit>
+		<credit>
+			<stanext>4</stanext>
+			<accountno></accountno>
+			<amount>2000.00</amount>
+			<txndesc>Salary Oct 2017</txndesc>
+			<referenceno>711045249835</referenceno>
+			<beneid>RAJMOTORS</beneid>
+			<BeneName>RAJ MOTORS</BeneName>
+			<BeneAddress_1/>
+			<BeneAddress_2/>
+			<BeneAddress_3/>
+			<BeneAddress_4/>
+			<emailid>d@abc.com,e@abc.com</emailid>
+			<advice1>Payment for month of March</advice1>
+			<advice2>Amount transferred to the account registered in the system</advice2>
+			<advice3>You may check the salary statement from 3rd of this month</advice3>
+			<advice4></advice4>
+			<advice5></advice5>
+			<advice6></advice6>
+			<advice7></advice7>
+			<advice8></advice8>
+			<advice9></advice9>
+			<advice10></advice10>
+			<addnlfield1></addnlfield1>
+			<addnlfield2></addnlfield2>
+			<addnlfield3></addnlfield3>
+			<addnlfield4></addnlfield4>
+			<addnlfield5></addnlfield5>
+		</credit>
+	</creditlist>
+</faxml>  </creditlist>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#faxml-0-8dc5d12711c6cc0d3c0d33aa1d062119">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>dcSy6iHtn3Lo06ky6BLhO5SOW6R6t9uM6ylcRd7SYhA=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>Q32xbvVhDRxKz+PKh2JdInisfHuzo19GQ6c4P9nRLYgZgNdfSBd+1oCbDZyluAOexx5O1dEk3kNnyLq3RDEypIRkJATP+3CIgF+HcS4xrcS8WquaqAeXz+XQLNvOhQQuvxx+Qy2wVMr71oVADfLfILMO/c3VZ3BbmLNwRd825DUUMIxzL4+hX5CVXSM5wKpPyVS6Sc/aO3hGM6X/h6+6oKejtA3YYUQkxTCQFQMEJjUpHi1ipMDJ3QA76c2+aKtwdRmCpRYaenk66V1XS3VD7qwqV+Y/jdQXrd43YacCA39vrr4IquQAS8sEPRbk+B6mevsSc0NfCH13OvP4ekqhwg==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIC5D...DyHy</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+</faxml>

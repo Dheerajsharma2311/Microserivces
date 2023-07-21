@@ -1,0 +1,44 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: DECRYPT-SERVICE
+          uri: lb://DECRYPT-SERVICE
+          predicates:
+            - Path=/users/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: DECRYPT-SERVICE
+                fallbackuri: forward:/userServiceFallBack
+        - id: ENCRYPT-SERVICE
+          uri: lb://ENCRYPT-SERVICE
+          predicates:
+            - Path=/encrypt/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: ENCRYPT-SERVICE
+                fallbackuri: forward:/EncryptServiceFallBack
+
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+

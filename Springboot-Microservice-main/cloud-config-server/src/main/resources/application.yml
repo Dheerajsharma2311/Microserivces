@@ -1,0 +1,10 @@
+server:
+  port: 9296
+
+spring:
+  application:
+    name: CONFIG-SERVER
+    
+spring.cloud.config.server.bootstrap: false
+spring.profiles.active: native
+spring.cloud.config.server.native.search-locations: C:\Users\dheeraj.sharma\Downloads\Springboot-Microservice-main\Springboot-Microservice-main\cloud-config-server
